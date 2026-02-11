@@ -8,7 +8,7 @@ PROJECT_ID = "burnished-web-484613-t0"
 REGION = "us-central1"
 BUCKET = "gs://svdataflow_bucket"
 
-SUBSCRIPTION = f"projects/{PROJECT_ID}/subscriptions/house-subscription"
+SUBSCRIPTION = f"projects/{PROJECT_ID}/subscriptions/house_subscription"
 TABLE = f"{PROJECT_ID}:house_dataset.house_prices_stream"
 
 
