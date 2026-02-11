@@ -1,0 +1,12 @@
+steps:
+
+- name: python:3.11
+  entrypoint: pip
+  args: ["install", "-r", "requirements.txt"]
+
+- name: python:3.11
+  entrypoint: python
+  args: ["streaming_pipeline.py"]
+
+options:
+  logging: CLOUD_LOGGING_ONLY
