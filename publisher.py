@@ -4,7 +4,7 @@ import json
 import time
 
 project_id = "burnished-web-484613-t0"
-topic_id = "house-topic"
+topic_id = "house_topic"
 
 publisher = pubsub_v1.PublisherClient()
 topic_path = publisher.topic_path(project_id, topic_id)
